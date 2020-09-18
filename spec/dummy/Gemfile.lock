@@ -1,7 +1,7 @@
 PATH
   remote: ../..
   specs:
-    loggun (0.3.1)
+    loggun (0.4.0)
 
 GEM
   remote: https://rubygems.org/
@@ -91,6 +91,9 @@ GEM
     http-form_data (2.3.0)
     http-parser (1.2.1)
       ffi-compiler (>= 1.0, < 2.0)
+    httpi (2.4.5)
+      rack
+      socksify
     i18n (1.8.2)
       concurrent-ruby (~> 1.0)
     listen (3.1.5)
@@ -176,6 +179,7 @@ GEM
       rack (~> 2.0)
       rack-protection (>= 2.0.0)
       redis (>= 4.1.0)
+    socksify (1.7.1)
     spring (2.1.0)
     spring-watcher-listen (2.0.1)
       listen (>= 2.7, < 4.0)
@@ -207,6 +211,7 @@ DEPENDENCIES
   byebug
   clockwork (~> 2.0)
   http (~> 4.0)
+  httpi
   listen (>= 3.0.5, < 3.2)
   loggun!
   rails
